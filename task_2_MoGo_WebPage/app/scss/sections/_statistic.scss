@@ -1,0 +1,36 @@
+.statistic {
+  background-color: #95e1d3;
+}
+
+.statistic-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+}
+
+.statitstic-cell {
+  display: table-cell;
+  text-align: center;
+  //width: 25%;
+
+  padding: 83px 0px 89px 0px;
+  border-right: 1px solid #b5eae0;
+}
+.statitstic-cell:first-child{
+  border-left: 1px solid #b5eae0;
+}
+
+
+
+.statistic-number {
+  font-family: $montserratBold;
+  margin-bottom: 14px;
+  font-size: 72px;
+  color: #fff;
+}
+
+.statistic-name {
+  font-size: 14px;
+  color: #fff;
+}

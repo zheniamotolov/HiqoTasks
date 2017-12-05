@@ -1,0 +1,15 @@
+<div class="todo-plugin">
+  <app-modal-window #modal1 #modal2></app-modal-window>
+  <div class="todo-manager">
+    <app-new-todo-input (add)="onAddTodo($event)" [modal]="modal1"></app-new-todo-input>
+    <app-todo-filters></app-todo-filters>
+  </div>
+  <app-todo-list [modal]="modal2"
+                 *ngIf="todos"
+                 [todos]="todos"
+                 (toggleStatus)="onSwitchStatusTodo($event)"
+                 (remove)="onRemoveTodo($event)"
+                 (edit)="onEditTodo($event)">
+
+  </app-todo-list>
+</div>

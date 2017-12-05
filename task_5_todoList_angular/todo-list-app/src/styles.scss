@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap";
+.uncompleted-tasks app-todo-item li {
+  display: block;
+}
+
+.uncompleted-tasks app-todo-item .completed-task {
+  display: none;
+}
+.completed-tasks app-todo-item li {
+  display: none;
+}
+
+.completed-tasks app-todo-item  .completed-task {
+  display: block;
+}
+

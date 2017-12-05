@@ -1,0 +1,80 @@
+.about {
+  padding-top: 90px;
+  padding-bottom: 107px;
+}
+
+.about-photos-grid {
+  margin-top: 98px;
+  font-size: 0;
+
+}
+
+.about-photo {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 31.6%;
+  display: inline-block;
+  position: relative;
+
+  margin-left: 2.5%;
+  transition: 0.4s;
+
+}
+
+.about-photo:first-child {
+  margin-left: 0;
+}
+
+.about-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 66%;
+  //position: relative;
+}
+
+.about-effect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  //transition:opacity 0.2s linear;
+}
+
+.about-icons {
+  text-align: center;
+  display: none;
+}
+
+.about-photo:hover {
+  //transition: 0.5s;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px #95e1d3;
+  .about-icons {
+    display: block;
+  }
+}
+
+.about-effect p {
+  font-family: $montserratBold;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+
+}
+
+.about-effect:hover {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+  //transition: 0.4s;
+  opacity: 1;
+
+}
+

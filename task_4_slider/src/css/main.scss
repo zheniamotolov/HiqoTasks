@@ -1,0 +1,104 @@
+@import 'normalize';
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.slider-plugin > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.slider-menu {
+  width: 30%;
+  margin-right: 20px;
+
+}
+
+.slider-submenu {
+  margin-top: 75px;
+  overflow: hidden;
+  margin-right: 20px;
+  width: 30%;
+  height: 135px;
+}
+
+.slider-image {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 280px;
+  width: 100%;
+  position: absolute;
+  background-image: url('../img/img0.png');
+}
+
+.menu-item {
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  line-height: 80px;
+  margin-bottom: 20px;
+  height: 80px
+}
+
+.slider-submenu li {
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 5px;
+  height: 40px
+}
+
+.slider-submenu-container {
+  position: relative;
+}
+
+.slide-in-effect {
+  right: 430px;
+  transition: right 0.300s;
+}
+.slide-effect {
+  top: 0;
+  transition: top 0.3s;
+}
+.slide-out-effect {
+  left: 0;
+  transition: left 0.500s;
+}
+
+.new-slider-image {
+  right: 0;
+}
+
+.image-container {
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+
+.versionSwitcher {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.slider-menu div:hover{
+
+  background-color: aquamarine;
+}
+.slider-submenu-container li:hover{
+  background-color: darkslateblue;
+}
+.versionSwitcher button {
+  background-color: sandybrown;
+  color: white;
+  margin: 0 10px;
+}
+.active-button:hover{
+  background-color: cadetblue;
+}

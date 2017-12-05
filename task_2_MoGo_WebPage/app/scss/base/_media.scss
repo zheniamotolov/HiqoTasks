@@ -1,0 +1,820 @@
+@media (max-width: 1440px) {
+  .quote-image {
+    width: 15%;
+
+  }
+  .quote-statment {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  .quote-text {
+
+    width: 76.6%;
+  }
+  .footer-grid {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .email-input {
+
+    padding: 7px 36px 11px 8px;
+  }
+  .email-button {
+
+    padding: 11px 27px 13px 24px;
+  }
+  header nav {
+    position: relative;
+  }
+  .quote-wrapper {
+
+    width: 64.6%;
+
+  }
+  .quote-text {
+    width: 76%;
+  }
+  .header-title h2 {
+    font-size: 67px;
+  }
+  .header-title h1 {
+    font-size: 120px;
+  }
+  .header-submenu {
+
+    padding: 0 10px 0;
+  }
+  .team-photos-grid {
+    padding: 0 20px 0px;
+  }
+  .statistic .wrapper {
+    max-width: 1200px;
+  }
+
+  .about-photos-grid {
+
+    padding: 0 10px 0;
+  }
+  .accordion-panel {
+    //padding: 0 18px;
+    padding: 5px 0px 6px 10px;
+    height: 119px;
+  }
+  .activity-container {
+    padding: 0 10px 0;
+  }
+  .scroll-bar.vertical {
+
+    height: 120px;
+  }
+  .scrollable .viewport .overview {
+
+    padding: 0px 40px 20px 0px;
+  }
+  .scroll-bar.vertical {
+
+    height: 120px;
+  }
+  .quote-person-image {
+
+    width: 22%;
+    float: left;
+    margin-right: 30px;
+  }
+  .quote-person-text {
+    float: left;
+    width: 70%;
+  }
+  .quote-person-text p:first-child {
+
+    margin-top: 33px;
+
+  }
+  .quote-person-image {
+    width: 21%;
+    margin-right: 30px;
+  }
+  .quote-person-text {
+    float: left;
+    width: 74%;
+  }
+  .quote-person-text p:first-child {
+    margin-top: 9px;
+
+  }
+
+  .blogs-grid {
+    padding: 0 20px 0;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .blog {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .footer-blog-info {
+    margin-top: 0;
+    width: 60%;
+    float: right;
+  }
+
+
+
+  .blog-number {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+  .blog-month {
+
+    font-family: "RobotoLightItalic", sans-serif;
+    font-size: 15px;
+  }
+
+  .rewiews {
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+  .clients-grid {
+
+    margin-top: 50px;
+
+  }
+  .client-rewiew {
+    margin-bottom: 35px;
+
+  }
+
+  .work {
+    padding-top: 45px;
+  }
+  .work-photos-grid {
+
+    padding-top: 50px;
+  }
+  .brends-grid div img {
+    width: 72%
+  }
+  .team-photos-grid {
+    margin-top: 50px;
+
+  }
+  .team {
+    padding-top: 51px;
+    padding-bottom: 30px;
+
+  }
+  .quote-slider {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .quote-wrapper {
+
+    width: 60%;
+
+  }
+  .quote-statment {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 18px;
+
+  }
+
+  .quote-author {
+    font-size: 20px;
+
+  }
+
+  .quote-text {
+
+    width: 74%;
+  }
+  .quote-person-text {
+    width: 72%;
+  }
+  .activites {
+    padding-bottom: 60px;
+    padding-top: 19px;
+  }
+  .activity-container {
+    margin: 50px 0px 0px 0px;
+  }
+  .services {
+    padding-top: 38px;
+    padding-bottom: 0;
+
+  }
+
+  .section-info {
+
+    margin-top: 33px;
+    width: 95%;
+  }
+  .menu {
+    display: none;
+  }
+  a.icon-menu {
+
+    display: block;
+  }
+  .responsive {
+    background-color: #e98683;
+    top: 45px;
+    right: 0px;
+    display: block;
+    float: none;
+    position: absolute;
+    width: 100%;
+
+  }
+  .responsive li {
+    display: block;
+    text-align: left;
+    margin-left: 0;
+    padding: 12px 13px;
+    cursor: pointer;
+    border-bottom: 1px solid orange;
+  }
+  .responsive li:first-child {
+    border-top: 1px solid orange;
+  }
+  .responsive li:nth-child(6) {
+
+    width: 50%;
+    text-align: center;
+    float: left;
+  }
+
+  .responsive li:last-child {
+    width: 50%;
+    text-align: center;
+    float: right;
+    margin-left: 0;
+  }
+
+  .responsive a:not([class*="icon"]):hover {
+    color: #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .responsive .icon-search .icon-search {
+    padding-left: 30px;
+  }
+
+  .header-title h2 {
+    font-size: 60px;
+    margin-top: 30px;
+
+  }
+  .header-title h1 {
+    font-size: 100px;
+    margin-top: 35px;
+  }
+  .header-submenu span {
+    font-size: 18px;
+  }
+  .header-submenu {
+
+    margin-top: 50px;
+  }
+  .header-title:after {
+    margin-top: 30px;
+  }
+  .header-submenu a {
+    font-size: 18px;
+  }
+  .about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about-photos-grid {
+    margin-top: 30px;
+  }
+  .section-title h4 {
+    font-size: 20px;
+  }
+  .section-title h3 {
+    font-size: 25px;
+  }
+  .section-title h3:after {
+
+    padding-top: 17px;
+
+  }
+  .statitstic-cell {
+    padding: 40px 0px 40px 0px;
+  }
+  .statitstic-cell p:nth-child(2n+1) {
+
+    margin-bottom: 13px;
+    font-size: 44px;
+  }
+
+  .statitstic-cell p:nth-child(2n) {
+    font-size: 12px;
+
+  }
+  .statistic .wrapper {
+    max-width: 1200px;
+  }
+  .services .wrapper {
+    max-width: 1200px;
+  }
+  .about .wrapper {
+    max-width: 1200px;
+  }
+  .services-description {
+    width: 62%;
+  }
+  .services-description p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .services-cell img {
+    padding-right: 10px;
+  }
+  .services-cell h5 {
+    font-size: 12px;
+  }
+  .unique-design-container {
+    padding-top: 47px;
+  }
+  .ipad {
+    height: 500px;
+
+  }
+  .iphone {
+    height: 370px;
+    margin-top: -301px;
+    margin-left: 388px;
+
+  }
+
+}
+
+@media (max-width: 1000px) {
+
+  .footer-instagram {
+    text-align: center;
+    width: 40%;
+    padding: 0;
+  }
+  .footer-blogs {
+    width: 50%;
+    //padding: 10px 0 0 55px;
+  }
+  .footer-media {
+    width: 50%;
+  }
+
+  .client-rewiew {
+    padding: 0;
+  }
+  .client-info {
+    text-align: center;
+    width: 90%;
+    float: none;
+  }
+  .client-info p:nth-child(even):after {
+
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .client-photo {
+    float: none;
+  }
+  .activity-image {
+    float: none;
+    width: 90%;
+  }
+  .accordion {
+    margin-top: 30px;
+    float: none;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote-author:before {
+
+    display: block;
+   margin: 10px auto;
+
+  }
+  footer {
+    padding-top: 20px;
+  }
+  .footer-instagram {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .email-input {
+    padding: 7px 10px 11px 8px;
+  }
+  .email-button {
+    padding: 11px 16px 13px 12px;
+  }
+  .social a {
+
+    margin-left: 10px;
+  }
+
+  .blog-number {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+  .blog-month {
+
+    font-family: "RobotoLightItalic", sans-serif;
+    font-size: 13px;
+  }
+
+  .quote-statment {
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    font-size: 15px;
+
+    line-height: 20px;
+  }
+  .team-icons a {
+    border-right: none;
+
+  }
+  .quote-author {
+    font-size: 16px;
+    color: #333;
+    font-family: $kaushan;
+  }
+  .brends {
+    padding: 20px 0px;
+  }
+  .brends-grid div {
+    padding: 10px;
+    width: 33.33%
+  }
+  .brends-grid div img {
+    width: 40%
+  }
+  .brends-grid div:nth-child(n+3)
+  .team-photos-grid {
+    margin-top: 30px;
+
+  }
+  .team {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .services-cell {
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 28px;
+
+  }
+  .accordion-panel {
+    padding: 5px 0px 6px 10px;
+    height: 170px;
+  }
+  .panel-head {
+    padding: 7px 14px 7px 14px;
+  }
+  header {
+    padding-bottom: 5px;
+  }
+  .responsive {
+    float: none;
+    position: absolute;
+
+  }
+
+  .header-submenu li {
+    width: 47%;
+
+  }
+  .header-submenu li:first-child {
+    margin-left: 2%;
+  }
+  .header-submenu a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header-title h1 {
+    font-size: 66px;
+
+  }
+  .header-title h2 {
+    font-size: 50px;
+
+  }
+  .header-button {
+
+    margin-top: 40px;
+  }
+  .header-button a {
+    padding: 9px 18px;
+    font-size: 10px;
+  }
+  .header-submenu span {
+    font-size: 14px;
+  }
+  .header-submenu a {
+    font-size: 14px;
+  }
+  .section-title h4 {
+    font-size: 18px;;
+  }
+  .section-title h3 {
+    font-size: 25px;
+  }
+  .section-info {
+    font-size: 12px;
+  }
+  .statitstic-cell {
+    padding: 32px 0 33px 0;
+  }
+  .statitstic-cell p:nth-child(2n+1) {
+    margin-bottom: 7px;
+    font-size: 30px;
+  }
+  .statitstic-cell p:nth-child(2n) {
+    font-size: 11px;
+
+  }
+
+  .services-cell img {
+    float: none;
+    padding: 0 0 27px 0;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+  }
+  .services-description {
+    float: none;
+    text-align: center;
+  }
+  .ipad {
+    height: 400px;
+
+  }
+  .iphone {
+    height: 270px;
+    margin-top: -221px;
+    margin-left: 308px;
+
+  }
+
+  .work-column {
+
+    width: 50%;
+  }
+  .quote-text {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .quote-image {
+    float: none;
+    margin: 0 auto;
+  }
+  .quote-person-image {
+    width: 30%;
+  }
+  .blog-data {
+
+    width: 40px;
+    padding: 6px 0 6px;}
+}
+
+
+@media (max-width: 630px) {
+
+  .footer-instagram {
+    width: 70%;
+    text-align: center;
+    padding: 0;
+  }
+  .footer-blogs {
+    width: 90%;
+    padding: 0;
+  }
+  .social a {
+    margin-left: 5px;
+  }
+
+  .footer-media {
+    text-align: center;
+    width: 90%;
+  }
+  .footer-blogs h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .email-input {
+    width: 78%;
+    padding: 7px 10px 11px 8px;
+  }
+  .email-button {
+    margin-top: 10px;
+
+    width: 60%;
+    padding: 11px 16px 13px 12px;
+  }
+  .services-cell img {
+    float: left;
+    padding-right: 27px;
+    //display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+  }
+
+  .services-cell {
+    border-bottom: 1px solid #e5e5e5;
+
+  }
+  .services-cell:last-child {
+    border-bottom: none;
+  }
+  .services-description {
+    float: left;
+    text-align: left;
+  }
+  .services-cell {
+    padding-left: 15px;
+    display: block;
+    width: 100%;
+
+  }
+  .services-description {
+    width: 80%;
+  }
+  .bx-wrapper .bx-prev {
+    left: -80px;
+  }
+
+  .quote-slider {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .quote-image {
+    width: 25%;
+  }
+  .blog-item {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  .blog-item:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .blog-data {
+    width: 60px;
+    left: -2.6%;
+
+  }
+  .blog-number {
+
+    font-size: 25px;
+  }
+  .blog-month {
+
+    font-size: 17px;
+  }
+  .quote-person-image {
+    width: 40%;
+  }
+
+
+}
+
+@media (max-width: 425px) {
+
+  .footer-media h3 {
+
+    font-size: 26px;
+    margin-bottom: 5px;
+
+  }
+  .footer-instagram h3 {
+    margin-bottom: 16px;}
+  .footer-media p:first-of-type {
+
+    margin-bottom: 20px;
+  }
+  .blog {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .client-rewiew {
+    width: 100%;
+  }
+  .client-info {
+    text-align: center;
+    width: 90%;
+    float: none;
+  }
+  .brends-grid div {
+    //padding: 10px;
+    width: 50%;
+  }
+  .brends {
+    padding: 10px 0px;
+  }
+  .team-card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .bx-wrapper .bx-prev {
+    left: -53px;
+  }
+  .bx-wrapper .bx-next {
+    right: -70px;
+  }
+  .activites {
+    padding-bottom: 30px;
+    padding-top: 19px;
+  }
+  .activity-container {
+    margin: 30px 0px 0px 0px;
+  }
+  .about-photo {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .header-submenu li {
+    width: 100%;
+
+    margin-left: 0;
+  }
+  .header-submenu li:first-child {
+    margin-left: 0;
+  }
+  .header-title h1 {
+    font-size: 46px;
+  }
+  .header-title h2 {
+    font-size: 36px;
+    margin-top: 15px;
+  }
+  .header-submenu {
+    margin-top: 30px;
+  }
+  .section-title h3 {
+    font-size: 20px;
+  }
+  .section-info {
+    margin-top: 25px;
+  }
+  .statitstic-cell {
+    padding: 18px 0 18px 0;
+  }
+  .statitstic-cell:first-child {
+    border: none;
+    border-bottom: 1px solid #b5eae0;
+  }
+
+  .statitstic-cell {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #b5eae0;
+  }
+  .statistic .wrapper {
+    max-width: 1200px;
+  }
+  .statistic-table {
+    display: block;
+  }
+  //.services-cell {
+  //  //    width: 85%;
+  //}
+
+  .ipad {
+    height: 260px;
+
+  }
+  .iphone {
+    height: 177px;
+    margin-top: -144px;
+    margin-left: 155px;
+
+  }
+  .statitstic-cell p:nth-child(2n+1) {
+
+    font-size: 25px;
+  }
+  .work-photos-grid {
+
+    padding-top: 30px;
+  }
+}

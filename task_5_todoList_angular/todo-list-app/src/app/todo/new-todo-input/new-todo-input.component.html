@@ -1,0 +1,5 @@
+<form class="form-inline">
+  <input  class="task-input form-control mr-sm-2 mb-2 mb-sm-0" type="text" name="task" placeholder="New task" [(ngModel)]="newTodo.text" (keyup.enter)="addTodo()" />
+  <button class="add-button btn" (click)="addTodo()">Add</button>
+</form>
+

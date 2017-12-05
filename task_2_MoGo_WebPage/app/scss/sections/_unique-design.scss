@@ -1,0 +1,28 @@
+.unique-design {
+}
+
+.unique-design-container {
+  padding-top: 109px;
+  background-size: cover;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 100%),url(../images/unique-design/background.png) no-repeat center;
+}
+
+.ipad {
+  background-size: contain;
+  margin-top: 20px;
+  margin-right: 51px;
+  height: 608px;
+  background-image: url(../images/unique-design/ipad.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iphone {
+  background-size: contain;
+  background-image: url(../images/unique-design/iphone.png);
+  height: 471px;
+  margin-top: -381px;
+  margin-left: 462px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

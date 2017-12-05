@@ -1,0 +1,170 @@
+.team {
+  padding-top: 99px;
+  padding-bottom: 120px;
+  font-size: 0;
+}
+
+.team-photos-grid {
+  margin-top: 90px;
+  text-align: center;
+
+}
+
+.team-photo {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: 0.4s;
+
+  //position: relative;
+
+}
+
+.team-card{
+  width: 31.6%;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 2.5%;
+}
+.team-card:first-child{
+  margin-left: 0;
+}
+.team-card p:nth-child(even){
+  margin-top: 30px;
+  font-family:$montserrat;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+.team-card p:nth-child(odd){
+  margin-top: 14px;
+  font-size: 15px;
+
+  font-style: italic;
+  color: #999;
+  text-align: center;
+}
+
+.team-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 123%;
+
+}
+
+.team-effect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.team-icons span {
+  margin: auto;
+  display: block;
+}
+
+.team-icons a {
+  display: inline-block;
+  background-color: #fce38a;
+  border-right: 1px solid #f9bd87;
+  padding: 15px;
+
+}
+.team-icons {
+  display: none;
+}
+.team-icons a:last-child{
+  border-right: none;
+}
+
+.team-icons a:hover {
+  background-color: #f38181;
+}
+
+.team-icons a:hover .facebook-icon {
+  background-image: url(../images/team/facebook-white.png);
+  background-position-x: 6px;
+}
+
+.facebook-icon {
+  background-image: url(../images/team/facebook.png);
+  width: 25px;
+  height: 26px;
+  background-repeat: no-repeat;
+
+}
+
+.team-icons a:hover .twitter-icon{
+  background-image: url(../images/team/twitter-white.png);
+
+}
+
+.twitter-icon {
+  background-image: url(../images/team/twitter.png);
+  width: 26px;
+  height: 26px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+.team-icons a:hover .pinterest-icon{
+  background-image: url(../images/team/pinterest-white.png);
+  background-position-x: -4px;
+}
+
+.pinterest-icon {
+  background-image: url(../images/team/pinterest.png);
+  width: 25px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+
+.team-icons a:hover .instagram-icon {
+  background-image: url(../images/team/instagram-white.png);
+}
+
+.instagram-icon {
+  background-image: url(../images/team/instagram.png);
+
+  width: 26px;
+  height: 26px;
+
+  background-repeat: no-repeat;
+}
+
+.team-photo:hover {
+
+
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px #95e1d3;
+
+  .team-icons {
+    display: block;
+  }
+}
+
+.team-effect p {
+  font-family: $montserratBold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.team-effect:hover {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%);
+
+  opacity: 1;
+
+
+}
+

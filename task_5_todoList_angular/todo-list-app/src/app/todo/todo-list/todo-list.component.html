@@ -1,0 +1,11 @@
+<ul class="todos-list">
+  <app-todo-item
+    *ngFor="let todo of todos"
+    [todo]="todo"
+    (toggleStatus)="onSwitchStatusTodo($event)"
+    (remove)="onRemoveTodo($event)"
+    (edit)="onEditTodo($event)"
+    (openModal)="onOpenModalWindow()">
+  </app-todo-item>
+</ul>
+
